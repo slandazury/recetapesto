@@ -1,0 +1,86 @@
+body {
+    background-color: bisque;
+    background-image: url(IMG/marmor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: 300px 150px;
+    justify-content: center;
+    align-content: end;
+    gap: 16px;
+}
+
+.galeria > img {
+    width: 100%;
+    height: 100%;
+}
+
+.galeria > img:hover {
+   transform: scale(1.5);
+}
+
+.main-photo {
+    border-radius: 20px;
+    grid-column: 1/4;
+}
+
+.fotouno {
+    border-radius: 20px;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.fotodos {
+    border-radius: 20px;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.fototres {
+    border-radius: 20px;
+    grid-column: 3;
+    grid-row: 2;
+}
+
+h1 {
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+}
+
+h1:hover {
+    font-size: 70px;
+    color: green;
+}
+
+p {
+    padding: 50px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.contenedor-ingredientes {
+    display: block;
+    border: 2px dashed black;
+    padding: 20px;
+    margin: 50px;
+    width: 500px;
+    font-size: 20px;
+} 
+
+.contenedor-preparacion {
+    padding: 50px;
+    font-size: 20px;
+}
+
+.subtitulo {
+    font-family: 'Times New Roman', Times, serif;
+
+}
